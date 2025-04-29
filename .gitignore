@@ -3,3 +3,4 @@ demo
 lib
 storage
 .env
+.DS_Store
