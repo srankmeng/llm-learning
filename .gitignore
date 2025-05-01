@@ -4,3 +4,5 @@ lib
 storage
 .env
 .DS_Store
+.aider*
+chroma_db
