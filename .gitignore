@@ -6,3 +6,4 @@ storage
 .DS_Store
 .aider*
 chroma_db
+demo.db
