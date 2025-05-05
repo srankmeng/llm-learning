@@ -8,3 +8,4 @@ storage
 .aider*
 chroma_db
 demo.db
+.deepeval_*
