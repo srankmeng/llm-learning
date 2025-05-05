@@ -1,0 +1,16 @@
+langchain 
+langchain_cohere
+langchain_community 
+langchain_core 
+langchain_openai 
+langchain_text_splitters
+langchain_chroma
+chromadb
+langchainhub
+beautifulsoup4
+
+flashrank
+langchain-cohere
+
+# Evaluation
+deepeval
