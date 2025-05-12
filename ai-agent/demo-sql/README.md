@@ -15,28 +15,20 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Step Run
-
-1. Initialize data in sqlite
-
-    ```sh
-    python3 01_init_data.py
-    ```
-
-2. Convert data to vector and store to chromadb (embedding)
-
-    ```sh
-    python3 02_embeding.py
-    ```
-
-3. ลอง search ข้อมูลใน chromadb
-
-    ```sh
-    python3 03_search.py
-    ```
-
-## Run test (evaluation)
+Install dependencies:
 
 ```sh
-deepeval test run test_correctness.py
+pip install -r requirements.txt
+```
+
+Run OpenAI:
+
+```sh
+python3 demo_openai.py
+```
+
+Run Ollama:
+
+```sh
+python3 demo_ollama.py
 ```
