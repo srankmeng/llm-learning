@@ -64,3 +64,7 @@ python3 demo_client.py
     > Find python3 directory with `which python3`
 - Restart Claude
 - Input prompt: `How about Bangkok weather?`
+
+## MCP Server Example
+
+- <https://github.com/modelcontextprotocol/servers>
