@@ -1,4 +1,6 @@
+beautifulsoup4
 langchain
 langchain-text-splitters
 langchain_experimental
 langchain_openai
+llama-index-core
