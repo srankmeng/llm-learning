@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Carbohydrate Loading Meal Plan for Marathon Training\n\nHere is a one-day meal plan for an athlete preparing for marathon race day with carbohydrate loading:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (120g), Fat (85g), Carbs (480g)\n\n**Meal Plan:**\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with honey (30g), sliced banana (120g), and whole milk (240g). 1 whole wheat toast (40g) with peanut butter (20g).\n    * Protein: 18g, Fat: 12g, Carbs: 95g\n\n* **Mid-Morning Snack (10:00 AM):** Sports drink (500ml) with 6% carbohydrates. Granola bar (50g).\n    * Protein: 5g, Fat: 8g, Carbs: 75g\n\n* **Lunch (1:00 PM):** Grilled chicken breast (130g) with pasta (120g dry weight cooked in water) topped with marinara sauce (100g). Side salad with mixed greens (150g) and olive oil dressing (15g).\n    * Protein: 42g, Fat: 12g, Carbs: 105g\n\n* **Afternoon Snack (4:00 PM):** Rice cakes (60g) with jam (40g). Orange juice (250ml).\n    * Protein: 4g, Fat: 2g, Carbs: 95g\n\n* **Dinner (7:00 PM):** Lean ground turkey (140g) with white rice (150g dry weight) and steamed carrots (150g). Low-fat yogurt (170g) on the side.\n    * Protein: 40g, Fat: 18g, Carbs: 95g\n\n* **Evening Snack (9:00 PM):** Bagel (90g) with honey (20g) and banana (100g).\n    * Protein: 11g, Fat: 3g, Carbs: 75g\n\nThis meal plan emphasizes high-quality carbohydrates with moderate protein to support glycogen storage while maintaining muscle integrity during intense marathon training. The timing of meals and snacks supports sustained energy levels leading up to race day.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training with carbohydrate loading for a 42km race in 3 days",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan spans exactly 1 day with 4-5 meals/snacks",
+        "Includes pre-workout, during-workout, and post-workout nutrition with specific timing",
+        "Provides high carbohydrate content (60-65% of total calories) appropriate for endurance athlete",
+        "Total daily calories align with marathon training requirements (3000-3500 kcal range)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring high caloric intake and carbohydrate loading, including specific timing for pre/during/post-workout nutrition"
+    },
+    "score": 6,
+    "reasoning": "The solution meets all three mandatory requirements with clear presentation of daily calories, macronutrient breakdown, and detailed meals with portions and timing. However, it has a critical deficiency in the secondary criteria: the plan does not include pre-workout, during-workout, and post-workout nutrition with specific timing. The task specifies this is for 'Marathon training' but no actual workout is scheduled or referenced, making it impossible to assess workout nutrition timing. The carbohydrate percentage is appropriate, and the meal count (6 occasions) exceeds the 4-5 requirement. While the caloric and macronutrient targets are reasonable, the lack of workout-specific nutrition timing is a significant gap against the stated secondary criteria."
+  }
+]
